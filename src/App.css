@@ -1,0 +1,165 @@
+*{
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  border: 5px solid rgb(17, 16, 16);
+}
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(72, 72, 141);
+  color: white;
+  
+}
+.title{
+  font-size: 1rem;
+}
+.center ul li {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  
+  cursor: pointer;
+}
+.Left{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex: 0.5;
+
+}
+.center{
+  flex: 2;
+}
+.Search{
+  flex: 2;
+}
+.searchIcon {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+.Search input{
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 45rem;
+  font-size: 14px;
+  
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 6px 25px;
+  border-radius: 4px;
+  width: 400px;
+  margin-right: 20px;
+}
+.Right{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.sign{
+  margin-left: 0;
+}
+.Right ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+  
+  cursor: pointer;
+ 
+}
+.bannerBox{
+  margin: 10px 0px;
+}
+.bannerBox img{
+  width: 100%;
+}
+.collectionsSection {
+  padding: 40px;
+  text-align: center;
+}
+
+.collectionsSection h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.collectionsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.collectionCard {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.collectionCard:hover {
+  transform: translateY(-5px);
+}
+
+.collectionCard img {
+  width: 80px;
+  height: 80px;
+}
+
+.collectionCard h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.footer {
+  background-color: rgb(72, 72, 141);
+  color: white;
+  margin-top: 40px;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+  gap: 30px;
+}
+
+.footerSection h2,
+.footerSection h3 {
+  margin-bottom: 15px;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footerSection ul li:hover {
+  text-decoration: underline;
+}
+
+.footerBottom {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
